@@ -1,37 +1,52 @@
-body{background-color: bisque;}
-
-header{background: bisque;}
-
-h1{font-size: 50px;
-width: 600px;
-margin: 0 auto ;}
-
-.container{
-    width: 600px;
-    margin: 0 auto;
+.contenedor{
+    width: 30%;
+    height: auto;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin: auto;
 }
-
-
-.post{
-background-color: rgb(111, 175, 111);
-margin-top: 30px;}
-span{
-    color: rgb(180, 30, 30);
+/*---primera parte del proyecto--*/
+.encabezado{
+    margin: 10px 5px 10px 5px;
 }
-img{
-    width: 100%;
+.logo-texto{
+    display: flex;
+    width: auto;
 }
-
-
-.post-footer{color: rgb(51, 201, 58);
-background-color: rgb(200, 255, 0);}
-
-.post-header{display:flex;
-justify-content: space-between;
-align-items:center;
+.logo-texto img{
+    width: 30px;
+    height: 24px;
 }
-.post h2,
-.post span{
-    padding: 15px 15px;
-    margin: 0;
+.texto{
+    width: auto;
+    padding-right: 70%;
+}
+.texto h6{
+    margin: 0px;
+}
+.tres-puntos{
+    text-align: end;
+}
+/*------segunda parte del proyecto imagen-----*/
+.imagen{
+    width: auto;
+    justify-content: center;
+    object-fit: cover;
+}
+.imagen img {
+    width: 400px;
+    padding:2px
+}
+/*-----Tercera parte del proyecto pie de pagina----*/
+.contenedor-icono{
+    display:flex;
+}
+.iconos-tres{
+    padding-right: 60%;
+}
+.parrafos{
+    padding: 0px 10px 0px 10px;
+    margin: 0px 10px 0px 10px;
+    text-align: justify;
+
 }
